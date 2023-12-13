@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Generator with Vue 3</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Indirizzi Email Generati</h1>
+        <ul>
+            <li v-for="email in emailList" :key="email">{{ email }}</li>
+        </ul>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <script src="acript.js"></script>
+</body>
+</html>
